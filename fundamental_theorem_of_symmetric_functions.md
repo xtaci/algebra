@@ -26,7 +26,7 @@ $-(-1)^{n+1}x_n^n=\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1}$
 
 即: 基本对称多项式中的 $x_n^n$ 可以由最高次项为 $x_n^{n-1}$ 的多项式表达出来，且这个多项式系数是 $\sigma_k$，即基本对称多项式。（推论1）
 
-对于任意一个N元对称多项式，可以转换为一个关于 $x_n$ 的多项式, 他的最高次最大可能是N次。如: $f(x_n) = \alpha_n \cdot x_n^n + \alpha_{n-1} \cdot x_n^{n-1} + \cdots +  \alpha_1 \cdot x_n + \alpha_0$
+对于任意一个N元对称多项式，可以转换为一个关于 $x_n$ 的多项式, 他的最高次最大为N次。如: $f(x_n) = \alpha_n \cdot x_n^n + \alpha_{n-1} \cdot x_n^{n-1} + \cdots +  \alpha_1 \cdot x_n + \alpha_0$
 
 那么，根据上面推论1，每一项 $\alpha_{k} \cdot x_n^k$ 都可以变换为一个最高次为 $x_n^{k-1}$ 的对称多项式表达出来：
 
