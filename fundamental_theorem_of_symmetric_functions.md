@@ -22,18 +22,9 @@ $\sigma_{n-1}=\tau_{n-1}+\tau_{n-2}x_n\Rightarrow \tau_{n-1}=\sigma_{n-1}-\sigma
 
 $\sigma_n=\tau_{n-1}x_n\Rightarrow 0=\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1}+(-1)^{n+1}x_n^n$
 
-调整一下等式，可以得到：
-
-$-(-1)^{n+1}x_n^n=\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1}$
- 
 可以发现，任意 $x_n$ 的 $n$ 次或者比 $n$ 更高次项(如对左右平方，3次方），都可以整理为以 $x_n \leq n-1$ 次的基本多项式作为系数的多项式，写为：
 
 $f=g_{n-1}x_n^{n-1}+\cdots+g_1x_n+g_0$ ( $0\leq k\leq n-1$ ) .
-
-例如:
-$x_n^{3n} = x_n^n \cdot x_n^n \cdot x_n^n = (-1)^{3n}(\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1})^3$
-
-这个三次式可以以其中一个 $x_n^{n-1}$ 为多项式的未知数x，其余 $x_n^{n-1}$ 作为系数放入 $g_k$，那么 $g_k$ 也是 $x_n^{n-1}$ 的这种表达式。 
 
 由于 $f$ 是 $n$ 元对称多项式, 意味着 $n$ 个元素任意对换是对称的，那么保持其中的一个元素 $x_n$ 不动，只兑换其他 $k < n$ 的 $x_k$ 元素，当然也依然对称（部分小于整体）， 可得 $f$ 在 $x_1,x_2,\cdots, x_{n-1}$ 的任意置换下不变，由此可得所有系数 $g_k$ 均为 $n-1$ 元对称多项式。
 
