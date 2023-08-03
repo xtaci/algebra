@@ -1,4 +1,4 @@
-证明：任意的对称多项式都可以表达为基本对称多项式的多项式。
+ 证明：任意的对称多项式都可以表达为基本对称多项式的多项式。
 
 对变量的个数 $n$ 进行归纳：
 
@@ -22,7 +22,11 @@ $\sigma_{n-1}=\tau_{n-1}+\tau_{n-2}x_n\Rightarrow \tau_{n-1}=\sigma_{n-1}-\sigma
 
 $\sigma_n=\tau_{n-1}x_n\Rightarrow 0=\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1}+(-1)^{n+1}x_n^n$
 
-可以发现，任意 $n$ 次的多项式，都可以整理为以 $x_n^k, k \leq n-1$ 次的基本多项式作为系数的多项式，写为：
+可得 $x_n^n$ 的表达式为：
+
+$(-1)^{n+1}x_n^n=\sigma_n-\sigma_{n-1}x_n+\cdots+(-1)^n\sigma_1x_n^{n-1}$
+
+由于任意 $n$ 次的多项式，都可以表达为以 $x_n^k, k \leq n-1$ 次的基本多项式作为系数的多项式，写为：
 
 $f=g_{n-1}x_n^{n-1}+\cdots+g_1x_n+g_0$ ( $0\leq k\leq n-1$ ) . 
 其中 $g_k\in F(x_1,x_2,\cdots, x_{n-1}),0\leq k\leq n-1$
